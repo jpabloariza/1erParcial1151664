@@ -15,6 +15,7 @@
 	}
 	header h1{
 		margin: auto;
+  		
   		padding: 10px;
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 40px;
@@ -42,11 +43,18 @@
 	  margin: 0;
 	  padding: 0;
 	}
+	section img{
+		max-width: 600px;
+		max-height: 300px;
+	}
 	.contenedor{
 		overflow: auto;
-		width: 60%;
+		width: 50%;
 	}
-	section img{
+	.que-es{
+		overflow: auto;
+	}
+	section .que-es img{
 		float:right;
 	}
 	button{
@@ -59,6 +67,9 @@
 	    border-radius: 6px;
 	    border: 2px solid #0016b0;
 	    float:right;
+	}
+	.sintomas img{
+		float: left;
 	}
 }
 
