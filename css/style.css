@@ -1,0 +1,68 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	header{
+		overflow: auto;
+	}
+	header img{
+		float:left;
+		max-width: 200px;
+		max-height: 200px;
+	}
+	header h1{
+		margin: auto;
+  		padding: 10px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px;
+	}
+	nav{
+		background-color: purple;
+		list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	}
+	nav ul li a{
+		display: block;
+  		padding: 8px;
+		text-decoration: none;
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+	}
+	nav ul li{
+		float: right;
+	}
+	nav ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	}
+	.contenedor{
+		overflow: auto;
+		width: 60%;
+	}
+	section img{
+		float:right;
+	}
+	button{
+		text-decoration: none;
+		padding: 10px;
+		font-weight: 600;
+	    font-size: 20px;
+	    color: #ffffff;
+	    background-color: #1883ba;
+	    border-radius: 6px;
+	    border: 2px solid #0016b0;
+	    float:right;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
